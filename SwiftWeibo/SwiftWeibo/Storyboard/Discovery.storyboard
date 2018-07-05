@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tO2-yz-mpU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--发现-->
+        <scene sceneID="zew-re-cLe">
+            <objects>
+                <tableViewController id="NY4-2m-0Bb" customClass="DiscoverTableViewController" customModule="新浪微博" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="iI2-m4-zqU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="kps-wJ-ow3">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kps-wJ-ow3" id="ADv-r5-Ykb">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="NY4-2m-0Bb" id="EvD-er-drK"/>
+                            <outlet property="delegate" destination="NY4-2m-0Bb" id="jw6-T9-B2b"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="发现" id="IxV-Kd-2Vw"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rPv-C9-cRd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="948" y="355"/>
+        </scene>
+        <!--发现-->
+        <scene sceneID="hHW-PL-2kF">
+            <objects>
+                <navigationController id="tO2-yz-mpU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="发现" image="tabbar_discover" selectedImage="tabbar_discover_highlighted" id="YGB-Uy-11b"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lh7-Sn-hKO">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="NY4-2m-0Bb" kind="relationship" relationship="rootViewController" id="j5O-JI-57U"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kds-lS-hXK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7" y="365"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabbar_discover" width="30" height="30"/>
+        <image name="tabbar_discover_highlighted" width="30" height="30"/>
+    </resources>
+</document>

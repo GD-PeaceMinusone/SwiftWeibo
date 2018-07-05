@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1250B964204768F6321708E5 /* Pods_SwiftWeibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923EDEA28F946FC73E0ECD41 /* Pods_SwiftWeibo.framework */; };
+		53657CC820ECC7C40016363A /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 53657CC720ECC7C40016363A /* MainVCSettings.json */; };
+		53657CD320EE05D60016363A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53657CD220EE05D60016363A /* Main.storyboard */; };
+		53657CD520EE0B280016363A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53657CD420EE0B280016363A /* Home.storyboard */; };
+		53657CD720EE0B440016363A /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53657CD620EE0B440016363A /* Message.storyboard */; };
+		53657CD920EE0B5F0016363A /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53657CD820EE0B5F0016363A /* Discovery.storyboard */; };
+		53657CDB20EE0B8E0016363A /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53657CDA20EE0B8E0016363A /* Me.storyboard */; };
+		53657CDD20EE10230016363A /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53657CDC20EE10230016363A /* Add.storyboard */; };
 		53DFEF52205A4ED1002D9BB0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DFEF51205A4ED1002D9BB0 /* MainViewController.swift */; };
 		53DFEF54205A4EEE002D9BB0 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DFEF53205A4EEE002D9BB0 /* HomeTableViewController.swift */; };
 		53DFEF56205A4F25002D9BB0 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DFEF55205A4F25002D9BB0 /* DiscoverTableViewController.swift */; };
@@ -38,6 +45,13 @@
 
 /* Begin PBXFileReference section */
 		0AB1A05C53A84631477DA695 /* Pods-SwiftWeibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftWeibo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-SwiftWeibo/Pods-SwiftWeibo.release.xcconfig"; sourceTree = "<group>"; };
+		53657CC720ECC7C40016363A /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		53657CD220EE05D60016363A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		53657CD420EE0B280016363A /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		53657CD620EE0B440016363A /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		53657CD820EE0B5F0016363A /* Discovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
+		53657CDA20EE0B8E0016363A /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		53657CDC20EE10230016363A /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
 		53DFEF51205A4ED1002D9BB0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		53DFEF53205A4EEE002D9BB0 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		53DFEF55205A4F25002D9BB0 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +103,19 @@
 				923EDEA28F946FC73E0ECD41 /* Pods_SwiftWeibo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53657CD120EE05A40016363A /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				53657CD220EE05D60016363A /* Main.storyboard */,
+				53657CDC20EE10230016363A /* Add.storyboard */,
+				53657CDA20EE0B8E0016363A /* Me.storyboard */,
+				53657CD820EE0B5F0016363A /* Discovery.storyboard */,
+				53657CD620EE0B440016363A /* Message.storyboard */,
+				53657CD420EE0B280016363A /* Home.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		53DFEF49205A4DE5002D9BB0 /* Classes */ = {
@@ -184,9 +211,11 @@
 		53F8A84B2059249D00EB13A4 /* SwiftWeibo */ = {
 			isa = PBXGroup;
 			children = (
+				53657CD120EE05A40016363A /* Storyboard */,
 				53DFEF49205A4DE5002D9BB0 /* Classes */,
 				53F8A84C2059249E00EB13A4 /* AppDelegate.swift */,
 				53F8A8532059249E00EB13A4 /* Assets.xcassets */,
+				53657CC720ECC7C40016363A /* MainVCSettings.json */,
 				53F8A8582059249E00EB13A4 /* Info.plist */,
 			);
 			path = SwiftWeibo;
@@ -328,7 +357,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53657CC820ECC7C40016363A /* MainVCSettings.json in Resources */,
 				53F8A8542059249E00EB13A4 /* Assets.xcassets in Resources */,
+				53657CD720EE0B440016363A /* Message.storyboard in Resources */,
+				53657CD320EE05D60016363A /* Main.storyboard in Resources */,
+				53657CD520EE0B280016363A /* Home.storyboard in Resources */,
+				53657CDB20EE0B8E0016363A /* Me.storyboard in Resources */,
+				53657CDD20EE10230016363A /* Add.storyboard in Resources */,
+				53657CD920EE0B5F0016363A /* Discovery.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
