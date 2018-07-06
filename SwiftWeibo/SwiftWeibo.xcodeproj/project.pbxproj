@@ -15,6 +15,7 @@
 		53657CD920EE0B5F0016363A /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53657CD820EE0B5F0016363A /* Discovery.storyboard */; };
 		53657CDB20EE0B8E0016363A /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53657CDA20EE0B8E0016363A /* Me.storyboard */; };
 		53657CDD20EE10230016363A /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53657CDC20EE10230016363A /* Add.storyboard */; };
+		538D7E0C20EF63BD0058C9A4 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538D7E0B20EF63BD0058C9A4 /* UIButton + Extension.swift */; };
 		53DFEF52205A4ED1002D9BB0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DFEF51205A4ED1002D9BB0 /* MainViewController.swift */; };
 		53DFEF54205A4EEE002D9BB0 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DFEF53205A4EEE002D9BB0 /* HomeTableViewController.swift */; };
 		53DFEF56205A4F25002D9BB0 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DFEF55205A4F25002D9BB0 /* DiscoverTableViewController.swift */; };
@@ -52,6 +53,7 @@
 		53657CD820EE0B5F0016363A /* Discovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
 		53657CDA20EE0B8E0016363A /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
 		53657CDC20EE10230016363A /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		538D7E0B20EF63BD0058C9A4 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
 		53DFEF51205A4ED1002D9BB0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		53DFEF53205A4EEE002D9BB0 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		53DFEF55205A4F25002D9BB0 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		53DFEF4B205A4DE5002D9BB0 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				538D7E0B20EF63BD0058C9A4 /* UIButton + Extension.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				53DFEF5A205A4F40002D9BB0 /* ProfileTableViewController.swift in Sources */,
 				53DFEF54205A4EEE002D9BB0 /* HomeTableViewController.swift in Sources */,
 				53F8A84D2059249E00EB13A4 /* AppDelegate.swift in Sources */,
+				538D7E0C20EF63BD0058C9A4 /* UIButton + Extension.swift in Sources */,
 				53DFEF58205A4F34002D9BB0 /* MessageTableViewController.swift in Sources */,
 				53DFEF56205A4F25002D9BB0 /* DiscoverTableViewController.swift in Sources */,
 				53DFEF52205A4ED1002D9BB0 /* MainViewController.swift in Sources */,
