@@ -8,6 +8,7 @@
 
 import UIKit
 
+@objcMembers
 class MainViewController: UITabBarController {
     private lazy var composeBtn : UIButton = UIButton(imageName: "tabbar_compose_icon_add", bgImageName: "tabbar_compose_button")
 
@@ -22,10 +23,11 @@ class MainViewController: UITabBarController {
         setupItemDisable()
     }
 }
-
+  
 extension MainViewController {
     private func setupComposeBtn() {
         composeBtn.center = CGPoint(x: tabBar.center.x, y: tabBar.bounds.size.height * 0.5)
+        composeBtn.addTarget(self, action:#selector(composeBtnClick), for: .touchUpInside)
         
         tabBar.addSubview(composeBtn)
     }
@@ -39,4 +41,30 @@ extension MainViewController {
         }
     }
 }
+
+extension MainViewController {
+    func composeBtnClick() {
+        print("11111")
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
